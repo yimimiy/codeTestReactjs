@@ -1,0 +1,185 @@
+.text {
+    font-size: 18px;
+    &.small {
+        font-size: 14px;
+    }
+
+    &.medium {
+        font-size: 22px;
+        color: #000000;
+    }
+
+    &.large {
+        font-size: 26px;
+    }
+
+    &.bold {
+        font-weight: bolder;
+    }
+}
+.product_page {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.menunavigation_bar {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background: #d9d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.filter_container {
+    width: 20%;
+
+    .categories {
+        background: #aaaaaa;
+        margin-bottom: 5%;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .neighborhood {
+        background: #aaaaaa;
+    }
+}
+
+.product_container {
+    width: 70%;
+    
+    .product_container_list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .product_item {
+        width: 40%;
+    }
+
+    .product_img {
+        width: 100%;
+        max-height: 300px;
+        min-height: 300px;
+        object-fit: inherit;
+    }
+
+    .product_detail {
+
+        .product_name {
+        }
+        .product_abstract {
+
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            .product_category {}
+
+            .product_rate {}
+
+        }
+    
+    }
+
+}
+
+.product_detail_page {
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5%;
+
+    .product_detail_header {
+        margin-bottom: 5%;
+    }
+
+    .restaurant_slide {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+
+        .slide-container {
+            position: relative;
+            width: 70%;
+
+            .image-container {
+                
+                img {
+                    width: 100%;
+                    max-height: 500px;
+                }
+
+            }
+
+            .react-slideshow-container .nav {
+                background: rgba(255,255,255,1);
+                width: 60px;
+                height: 60px;
+                border: 1px solid #dddddd;
+            }
+
+            .react-slideshow-container .nav:first-of-type {
+                position: absolute;
+                top: 100%;
+                left: 5%;
+                transform: translate(-50%,-50%);
+            }
+
+            .react-slideshow-container .nav:last-of-type {
+                position: absolute;
+                top: 100%;
+                left: 20%;
+                transform: translate(-50%,-50%);
+            }
+
+        }
+
+        .slide_picker {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .slide_picker_item {
+                background: #dddddd;
+                color: white;
+                height: 30%;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+        }
+    }
+
+    .information_container {
+        display: flex;
+        justify-content: space-between;
+
+        .column {
+            width: 33.33%;
+
+            .column_item {
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+
