@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
-
 export default class PersonList extends Component {
     constructor(props) {
       super(props)
