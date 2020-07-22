@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function filter() {
     return (
@@ -7,21 +7,37 @@ export default function filter() {
                 <p className="text medium">
                     Categories
                 </p>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
                     <label>All</label>
                 </div>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>French</label>
                 </div>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>contemporary</label>
                 </div>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>Italian</label>
+                </div>
+                <div className="item_list">
+                    <input type="checkbox" name="password" id="password" />
+                    <label>Italian</label>
+                </div>
+                <div className="item_list">
+                    <input type="checkbox" name="password" id="password" />
+                    <label>Maxican</label>
+                </div>
+                <div className="item_list">
+                    <input type="checkbox" name="password" id="password" />
+                    <label>Burgers</label>
+                </div>
+                <div className="item_list">
+                    <input type="checkbox" name="password" id="password" />
+                    <label>Fusion</label>
                 </div>
             </div>
 
@@ -29,21 +45,25 @@ export default function filter() {
                 <p className="text medium">
                     Neighborhood
                 </p>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>1st</label>
                 </div>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>2rd</label>
                 </div>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>3nd</label>
                 </div>
-                <div className="">
+                <div className="item_list">
                     <input type="checkbox" name="password" id="password" />
-                    <label>All</label>
+                    <label>4th</label>
+                </div>
+                <div className="item_list">
+                    <input type="checkbox" name="password" id="password" />
+                    <label>5th</label>
                 </div>
             </div>
 
